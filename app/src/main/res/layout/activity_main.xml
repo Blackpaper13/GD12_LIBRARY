@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:textStyle="bold"
+        android:text="Layout Guided 12 Library PDF and QR Code"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:textSize="24sp"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_pdf"
+            android:backgroundTint="@color/teal_700"
+            android:text="CREATE PDF"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="80dp"/>
+        <Button
+            android:id="@+id/button_scanqr"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="20dp"
+            android:text="Scan QR Code"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="80dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

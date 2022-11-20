@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GD12_KELAS_5DIGITNPM</string>
+    <string name="silakan_isi_form_berikut_untk_mencetak">Silakan Isi Form berikut untk mencetak</string>
+    <string name="nama_pengguna">Nama Pengguna</string>
+    <string name="alamat">Alamat</string>
+    <string name="nama_tempat_kuliah">Nama temnpat Kuliah</string>
+    <string name="status_mahasiswa">Status Mahasiswa (Aktif / Non-Aktif)</string>
+</resources>
